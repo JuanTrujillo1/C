@@ -24,7 +24,7 @@ void main(){
 
     c = a/b;
 
-    printf("%.2f",c);
+    printf("%f",c);
 
     printf("\nLa suma de los dos valores es: %d\n", a+b);
     printf("La resta de los dos valores es: %d\n", a-b);
