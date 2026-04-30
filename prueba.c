@@ -22,29 +22,7 @@ void main(){
     scanf("%d",&b);
 
     printf("\nLa suma de los dos valores es: %d\n", a+b);
-    printf("La resta de los dos valores es: %d\n", a-b);
-    printf("La multiplicacion de los dos valores es: %d\n", a*b);
-    printf("La division de los dos valores es: %f\n", a/b);
-    printf("La potencia de los dos valores es: %d\n", a^b);
-    printf("El residuo de los dos valores es: %d\n", a%b);
 
-    if (a < b){
-        printf("%d es MENOR que %d\n",a,b);
-
-        for (int i = a; i <= b; i++){
-            printf("%d ",i);
-        }
-
-    }else if (a > b){
-        printf("%d es MAYOR que %d\n",a,b);
-
-        for (int i = a; i >= b; i--){
-            printf("%d ",i);
-        }
-
-    }else{
-        printf("%d es IGUAL que %d\n",a,b);
-    }
 
     
 }
