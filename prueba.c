@@ -23,6 +23,7 @@ void main(){
 
     printf("\nLa suma de los dos valores es: %d\n", a+b);
     printf("La resta de los dos valores es: %d\n", a-b);
+    printf("La multiplicacion de los dos valores es: %d\n", a*b);
 
 
     
