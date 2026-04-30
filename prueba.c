@@ -22,6 +22,7 @@ void main(){
     scanf("%d",&b);
 
     printf("\nLa suma de los dos valores es: %d\n", a+b);
+    printf("La resta de los dos valores es: %d\n", a-b);
 
 
     
