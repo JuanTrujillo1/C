@@ -51,8 +51,16 @@ void main(){
     if (a < b){
         printf("%.2f es MENOR que %.2f\n",a,b);
 
+        for (int i = a; i <= b; i++){
+            printf("%d ",i);
+        }
+
     }else if (a > b){
         printf("%.2f es MAYOR que %.2f\n",a,b);
+
+        for (int i = a; i >= b; i--){
+            printf("%d ",i);
+        }
 
     }else{
         printf("%.2f es IGUAL que %.2f\n",a,b);
