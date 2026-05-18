@@ -31,10 +31,14 @@ void main(){
 
     printf("La division de los dos valores es: %.2f\n", c);
 
-   c = pow(a, b);
-   
+    c = pow(a, b);
+
     printf("La potencia de los dos valores es: %.2f\n", c);
+
+    c = fmod(a, b);
     
+    printf("El residuo de los dos valores es: %.2f\n", c);
+
 }
 
 
