@@ -13,19 +13,21 @@
 #include <stdio.h>
 
 void main(){
-    int a, b, c;
+    float a, b, c;
 
     printf("Ingrese un el primer valor: ");
-    scanf("%d",&a);
+    scanf("%f",&a);
 
     printf("Ingrese un el segundo valor: ");
-    scanf("%d",&b);
+    scanf("%f",&b);
 
-    printf("\nLa suma de los dos valores es: %d\n", a+b);
-    printf("La resta de los dos valores es: %d\n", a-b);
-    printf("La multiplicacion de los dos valores es: %d\n", a*b);
+    printf("\nLa suma de los dos valores es: %.2f\n", a+b);
+    printf("La resta de los dos valores es: %.2f\n", a-b);
+    printf("La multiplicacion de los dos valores es: %.2f\n", a*b);
 
+    c = a / b;
 
+    printf("La division de los dos valores es: %.2f\n", c);
     
 }
 
