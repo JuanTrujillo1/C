@@ -11,6 +11,8 @@
 */
 
 #include <stdio.h>
+#include <math.h>
+
 
 void main(){
     float a, b, c;
@@ -28,6 +30,10 @@ void main(){
     c = a / b;
 
     printf("La division de los dos valores es: %.2f\n", c);
+
+   c = pow(a, b);
+   
+    printf("La potencia de los dos valores es: %.2f\n", c);
     
 }
 
